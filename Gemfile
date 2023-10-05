@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "6.0.5.1"
+gem "rails", "7.1.0"
 
 gem "acts-as-taggable-on", "~> 9.0.1"
 gem "acts_as_votable", "~> 0.13.2"
@@ -17,22 +17,22 @@ gem "cocoon", "~> 1.2.15"
 gem "daemons", "~> 1.4.1"
 gem "dalli", "~> 2.7.11"
 gem "delayed_job_active_record", "~> 4.1.7"
-gem "devise", "~> 4.8.1"
-gem "devise-security", "~> 0.16.0"
+gem "devise", "~> 4.9.0"
+gem "devise-security", "~> 0.17.0"
 gem "file_validators", "~> 3.0.0"
 gem "font-awesome-sass", "~> 5.15.1" # Remember to update vendor/assets/images/fontawesome when updating this gem
 gem "foundation-rails", "~> 6.6.2.0"
 gem "foundation_rails_helper", "~> 4.0.1"
 gem "globalize", "~> 6.2.1"
 gem "globalize-accessors", "~> 0.3.0"
-gem "graphiql-rails", "~> 1.8.0"
+gem "graphiql-rails", "~> 1.9.0"
 gem "graphql", "~> 1.12.14"
 gem "groupdate", "~> 6.1.0"
 gem "image_processing", "~> 1.12.2"
 gem "initialjs-rails", "~> 0.2.0.9"
-gem "invisible_captcha", "~> 2.0.0"
+gem "invisible_captcha", "~> 2.1.0"
 gem "jquery-fileupload-rails"
-gem "jquery-rails", "~> 4.5.0"
+gem "jquery-rails", "~> 4.5.1"
 gem "jquery-ui-rails", "~> 6.0.1"
 gem "kaminari", "~> 1.2.2"
 gem "mini_magick", "~> 4.11.0"
@@ -47,7 +47,7 @@ gem "pg_search", "~> 2.3.6"
 gem "puma", "~> 4.3.12"
 gem "recipient_interceptor", "~> 0.3.1"
 gem "redcarpet", "~> 3.5.1"
-gem "responders", "~> 3.0.1"
+gem "responders", "~> 3.1.0"
 gem "rinku", "~> 2.0.6", require: "rails_rinku"
 gem "sassc-rails", "~> 2.1.2"
 gem "savon", "~> 2.13.0"
@@ -74,7 +74,7 @@ group :development, :test do
   gem "byebug", "~> 11.1.3"
   gem "factory_bot_rails", "~> 6.2.0"
   gem "faker", "~> 2.22.0"
-  gem "i18n-tasks", "~> 0.9.37"
+  gem "i18n-tasks", "~> 1.0.0"
   gem "knapsack_pro", "~> 3.3.1"
   gem "launchy", "~> 2.5.0"
   gem "letter_opener_web", "~> 2.0.0"
@@ -87,7 +87,7 @@ group :test do
   gem "capybara-webmock", "~> 0.6.0"
   gem "coveralls", "~> 0.8.23", require: false
   gem "email_spec", "~> 2.2.0"
-  gem "rspec-rails", "~> 5.1.2"
+  gem "rspec-rails", "~> 6.0.0"
   gem "selenium-webdriver", "~> 3.142"
   gem "webdrivers", "~> 4.7.0"
 end
@@ -112,7 +112,7 @@ group :development do
   gem "rubocop-rspec", "~> 2.4.0", require: false
   gem "rvm1-capistrano3", "~> 1.4.0", require: false
   gem "scss_lint", "~> 0.59.0", require: false
-  gem "web-console", "~> 4.2.0"
+  gem "web-console", "~> 4.2.1"
 end
 
 eval_gemfile "./Gemfile_custom"
