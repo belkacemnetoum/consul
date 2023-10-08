@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "6.0.5.1"
+gem "rails", "7.1.0"
 
 gem "acts-as-taggable-on", "~> 9.0.1"
 gem "acts_as_votable", "~> 0.13.2"
@@ -30,7 +30,7 @@ gem "graphql", "~> 1.12.14"
 gem "groupdate", "~> 6.1.0"
 gem "image_processing", "~> 1.12.2"
 gem "initialjs-rails", "~> 0.2.0.9"
-gem "invisible_captcha", "~> 2.0.0"
+gem "invisible_captcha", "~> 2.1.0"
 gem "jquery-fileupload-rails"
 gem "jquery-rails", "~> 4.5.0"
 gem "jquery-ui-rails", "~> 6.0.1"
