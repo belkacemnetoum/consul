@@ -50,7 +50,7 @@ gem "redcarpet", "~> 3.5.1"
 gem "responders", "~> 3.0.1"
 gem "rinku", "~> 2.0.6", require: "rails_rinku"
 gem "sassc-rails", "~> 2.1.2"
-gem "savon", "~> 2.13.0"
+gem "savon", "~> 2.13.1"
 gem "sitemap_generator", "~> 6.3.0"
 gem "social-share-button", "~> 1.2.4"
 gem "sprockets", "~> 4.1.1"
@@ -77,14 +77,14 @@ group :development, :test do
   gem "i18n-tasks", "~> 0.9.37"
   gem "knapsack_pro", "~> 3.3.1"
   gem "launchy", "~> 2.5.0"
-  gem "letter_opener_web", "~> 2.0.0"
+  gem "letter_opener_web", "~> 3.0.0"
   gem "spring", "~> 2.1.1"
   gem "spring-commands-rspec", "~> 1.0.4"
 end
 
 group :test do
   gem "capybara", "~> 3.37.1"
-  gem "capybara-webmock", "~> 0.6.0"
+  gem "capybara-webmock", "~> 0.7.0"
   gem "coveralls", "~> 0.8.23", require: false
   gem "email_spec", "~> 2.2.0"
   gem "rspec-rails", "~> 5.1.2"
@@ -98,18 +98,18 @@ group :development do
   gem "capistrano-rails", "~> 1.6.2", require: false
   gem "capistrano3-delayed-job", "~> 1.7.6"
   gem "capistrano3-puma", "~> 5.2.0"
-  gem "erb_lint", "~> 0.0.37", require: false
+  gem "erb_lint", "~> 0.1.0", require: false
   gem "github_changelog_generator", "~> 1.15.2"
-  gem "mdl", "~> 0.11.0", require: false
-  gem "pronto", "~> 0.11.0", require: false
-  gem "pronto-erb_lint", "~> 0.1.5", require: false
-  gem "pronto-eslint", "~> 0.11.0", require: false
-  gem "pronto-rubocop", "~> 0.11.2", require: false
+  gem "mdl", "~> 0.12.0", require: false
+  gem "pronto", "~> 0.11.1", require: false
+  gem "pronto-erb_lint", "~> 0.1.6", require: false
+  gem "pronto-eslint", "~> 0.11.1", require: false
+  gem "pronto-rubocop", "~> 0.11.3", require: false
   gem "pronto-scss", "~> 0.11.0", require: false
-  gem "rubocop", "~> 1.35.1", require: false
-  gem "rubocop-performance", "~> 1.11.4", require: false
-  gem "rubocop-rails", "~> 2.15.2", require: false
-  gem "rubocop-rspec", "~> 2.4.0", require: false
+  gem "rubocop", "~> 1.36.0", require: false
+  gem "rubocop-performance", "~> 1.11.5", require: false
+  gem "rubocop-rails", "~> 2.16.0", require: false
+  gem "rubocop-rspec", "~> 2.5.0", require: false
   gem "rvm1-capistrano3", "~> 1.4.0", require: false
   gem "scss_lint", "~> 0.59.0", require: false
   gem "web-console", "~> 4.2.0"
