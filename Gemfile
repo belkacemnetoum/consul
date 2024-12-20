@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "6.0.5.1"
+gem "rails", "7.0.8.7"
 
 gem "acts-as-taggable-on", "~> 9.0.1"
 gem "acts_as_votable", "~> 0.13.2"
@@ -25,7 +25,7 @@ gem "foundation-rails", "~> 6.6.2.0"
 gem "foundation_rails_helper", "~> 4.0.1"
 gem "globalize", "~> 6.2.1"
 gem "globalize-accessors", "~> 0.3.0"
-gem "graphiql-rails", "~> 1.8.0"
+gem "graphiql-rails", "~> 1.10.0"
 gem "graphql", "~> 1.12.14"
 gem "groupdate", "~> 6.1.0"
 gem "image_processing", "~> 1.12.2"
