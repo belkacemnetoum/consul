@@ -54,7 +54,7 @@ gem "savon", "~> 2.13.0"
 gem "sitemap_generator", "~> 6.3.0"
 gem "social-share-button", "~> 1.2.4"
 gem "sprockets", "~> 4.1.1"
-gem "translator-text", "~> 0.1.0"
+gem "translator-text", "~> 0.2.0"
 gem "turbolinks", "~> 5.2.1"
 gem "turnout", "~> 2.5.0"
 gem "uglifier", "~> 4.2.0"
@@ -101,10 +101,10 @@ group :development do
   gem "erb_lint", "~> 0.0.37", require: false
   gem "github_changelog_generator", "~> 1.15.2"
   gem "mdl", "~> 0.11.0", require: false
-  gem "pronto", "~> 0.11.0", require: false
-  gem "pronto-erb_lint", "~> 0.1.5", require: false
-  gem "pronto-eslint", "~> 0.11.0", require: false
-  gem "pronto-rubocop", "~> 0.11.2", require: false
+  gem "pronto", "~> 0.11.1", require: false
+  gem "pronto-erb_lint", "~> 0.1.6", require: false
+  gem "pronto-eslint", "~> 0.11.1", require: false
+  gem "pronto-rubocop", "~> 0.11.3", require: false
   gem "pronto-scss", "~> 0.11.0", require: false
   gem "rubocop", "~> 1.35.1", require: false
   gem "rubocop-performance", "~> 1.11.4", require: false
